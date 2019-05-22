@@ -1,0 +1,49 @@
+body{
+    background-color:#3b5998;
+
+}
+
+.i1{
+    position: absolute;
+    left:550px;
+    top:290px;
+     padding: 20px 70px;
+border-radius: 2rem;
+    
+}
+
+.i2{
+    position: absolute;
+    left:550px;
+    top:350px;
+    padding: 20px 70px;
+
+    border-radius: 2rem;
+}
+
+.sub{
+    position: absolute;
+    left:550px;
+    top:430px;
+    padding: 10px 135px;
+width: 10%;
+    
+}
+
+.fb{ 
+position: absolute;
+left:545px;
+top:80px;
+}
+
+
+.p1{
+position: absolute;
+left:650px;
+top:530px;
+font-size: 14px;
+color: blanchedalmond;
+
+
+
+}
