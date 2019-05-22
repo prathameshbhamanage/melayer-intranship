@@ -1,0 +1,22 @@
+.line1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.line2{
+    text-align: center;
+
+}
+.line3{
+    text-align: center;
+
+}
+.line4{
+    text-align: center;
+
+}
+.line5{
+    display: flex;
+    justify-content: space-between;
+
+}
