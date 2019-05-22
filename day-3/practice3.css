@@ -5,7 +5,7 @@
 }
 .line2{
     text-align: center;
-
+     margin-top: 20%;
 }
 .line3{
     text-align: center;
@@ -18,5 +18,6 @@
 .line5{
     display: flex;
     justify-content: space-between;
+    margin-top: 20%;
 
 }
