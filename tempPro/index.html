@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    table, tr,td{
+        border: 1px solid #aaa;
+        border-collapse: collapse;
+        padding: 5px
+    }
+    </style>
+</head>
+<body>
+
+
+    <div id="chageData">
+        <table>
+            <tbody id="chageData">
+           
+            </tbody>
+        </table>
+
+    </div>
+    <br> <br>
+    <button onclick="clicked()">get sum and avg</button>
+    <p id="tao"></p>
+<p id="avg"></p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <script>
+    
+    var userList=[
+        {firstName:'prathamesh', lastName:'bhamanage', s1:100,s2:100, s3:100},
+        {firstName:'sanket', lastName:'kumbhar', s1:100,s2:100, s3:100},
+        {firstName:'laximikant', lastName:'metre', s1:100,s2:100, s3:100},
+        {firstName:'arihant', lastName:'kote', s1:100,s2:100, s3:100},
+        {firstName:'raj', lastName:'patil', s1:100,s2:100, s3:100},
+        {firstName:'preet', lastName:'nille', s1:100,s2:100, s3:100},
+        {firstName:'shubham', lastName:'patel', s1:100,s2:100, s3:100},
+
+    ]
+    var finalTotal=0;
+    
+for (let index = 0; index < userList.length; index++) {
+    const element = userList[index];
+    // console.log('element/,', element);
+ var sum= element.s1+element.s2+element.s3;
+
+ finalTotal+=sum;
+ var  avg=sum/3;
+ 
+
+    var tempRow = "<tr>" +
+                     " <td>"+ element.firstName+ "</td>"+
+                     " <td>"+ element.lastName+ "</td>"+
+                     " <td>"+ element.s1+ "</td>"+
+                     " <td>"+ element.s2+ "</td>"+
+                     " <td>"+ element.s3+ "</td>"+
+                     " <td>"+sum + "</td>"+
+                 "  </tr>";
+
+                  $("table").append(tempRow);  
+
+ 
+}
+function clicked(){
+document.getElementById("tao").innerText=finalTotal;
+document.getElementById("avg").innerText=avg;}
+    </script>
+    
+</body>
+</html>
