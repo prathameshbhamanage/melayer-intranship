@@ -10,5 +10,10 @@
 //  var items =document.getElementsByClassName="list-group";
 //  console.log(items[1]);
 //  items[1].style.backgraundColor ='yellow' ;
-var data=document.getElementsByTagName="li";
-console.log(data);
+// var data=document.getElementsByTagName="li";
+// console.log(data);
+var header=document.querySelector("input");
+input.value="hello"
+
+var submit =document.querySelector('input[type="submit"]');
+submit.value="send"
