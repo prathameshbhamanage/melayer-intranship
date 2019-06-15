@@ -7,5 +7,6 @@
 
 // var data=document.getElementById="headr-title";
 // console.log(data);
- var data=document.getElementsByClassName="container";
- console.log(data);
+ var items =document.getElementsByClassName="list-group";
+ console.log(items[1]);
+ items[1].style.backgraundColor ='yellow' ;
