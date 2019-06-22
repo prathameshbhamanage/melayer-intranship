@@ -1,0 +1,344 @@
+body{
+  font-family: 'Titillium Web', sans-serif;
+}
+.left{
+
+  position: absolute;
+  top: 135px;
+  right: 43px;
+ width: 392px;
+height: 470px; 
+overflow: scroll;
+overflow-x: hidden;
+overflow-y: auto;
+z-index: 1;
+
+}
+.left-content{
+    width: 95%;
+    font-weight: 700;
+    border-left: 3px solid black;
+
+}
+.left-content:hover{
+    background-color: rgb(102, 190, 241);
+border-left: 7px solid black;
+}
+.header1{
+    min-height: 10%;
+    max-height: 10%;
+}
+#img1{
+z-index: -1;
+    position: absolute;
+    top: 100px;
+    left:50px;
+}
+.arr-img:hover{
+transform: scale(1.5);
+}
+
+
+#hlight{
+    z-index: 0;
+    position: absolute;
+    top: 310px;
+    left:380px;
+    display: none;
+}
+
+#hall1,#hall2,#hall3,#hall4,#hall5 {
+    display: none;
+    font-weight: 700;
+
+  }
+  
+  .innercontent{
+      width: 80%;
+      border-left: 1px solid black;
+    padding: 20px;
+  }
+
+  .innercontent:hover{
+    background-color: rgb(102, 190, 241);
+border-left: 5px solid black;
+}
+#ha1,#ha2,#ha3,#ha4{
+    display: none;
+    z-index: -1;
+    position: absolute;
+    top: 100px;
+    left:50px;
+}
+
+
+/* toggle buton code */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    float: right;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: green;
+    /* #2196F3 */
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  #hfan1{
+    z-index: 0;
+    position: absolute;
+    top: 340px;
+    left:160px;
+    display: none;
+  }
+  #hfan2{
+    z-index: 0;
+    position: absolute;
+    top: 330px;
+    left:600px;
+    display: none;
+  }
+  #hac{
+    z-index: 0;
+    position: absolute;
+    top: 150px;
+    left:360px;
+    display: none;
+  }
+
+  #ac{
+    z-index: 0;
+    position: absolute;
+    top: 150px;
+    left:360px;
+    display: none;
+  }
+
+  #bulb{
+    z-index: 0;
+    position: absolute;
+    top: 310px;
+    left:380px;
+    display: none;
+  }
+
+  #fan1{
+    z-index: 0;
+    position: absolute;
+    top: 340px;
+    left:160px;
+    display: none;
+  }
+
+  #fan2{
+    z-index: 0;
+    position: absolute;
+    top: 330px;
+    left:600px;
+    display: none;
+  }
+
+/* bedroom */
+
+  #bbulb{
+    z-index: 0;
+    position: absolute;
+    top: 400px;
+    left:380px;
+    display: none;
+  }
+
+
+
+  #bfan{
+    z-index: 0;
+    position: absolute;
+    top: 240px;
+    left:360px;
+    display: none;
+  }
+
+
+
+  #bac{
+    z-index: 0;
+    position: absolute;
+    top: 240px;
+    left:640px;
+    display: none;
+  }
+  #blight{
+    z-index: 0;
+    position: absolute;
+    top: 400px;
+    left:380px;
+    display: none;
+  }
+
+
+
+  #bfan1{
+    z-index: 0;
+    position: absolute;
+    top: 240px;
+    left:360px;
+    display: none;
+  
+  }
+
+
+
+  #bac1{
+    z-index: 0;
+    position: absolute;
+    top: 240px;
+    left:640px;
+    display: none;
+  }
+
+  /* kitchen */
+
+
+  #kbulb{
+    z-index: 0;
+    position: absolute;
+    top: 410px;
+    left:120px;
+    display: none;
+  }
+
+
+
+  #kfan{
+    z-index: 0;
+    position: absolute;
+    top: 225px;
+    left:410px;
+    display: none;
+  }
+
+
+  #klight{
+    z-index: 0;
+    position: absolute;
+    top: 410px;
+    left:120px;
+    display: none;
+  }
+
+
+
+  #kfan1{
+    z-index: 0;
+    position: absolute;
+    top: 225px;
+    left:410px;
+    display: none;
+  
+  }
+
+
+  /* bathroom */
+
+  #belight{
+    z-index: 0;
+    position: absolute;
+    top: 250px;
+    left:425px;
+    display: none;
+  }
+
+  #bebulb{
+    z-index: 0;
+    position: absolute;
+    top: 250px;
+    left:425px;
+    display: none;
+  }
+  #mobile{
+    z-index: 0;
+    position: absolute;
+    top: 70px;
+    right: 10px;
+  }
+/* firstpage */
+ 
+
+  #mobimg{
+    z-index: 0;
+  }
+  #insidemob{
+    z-index: 1;
+    position: relative;
+    top: -480px;
+    background: transparent;
+
+  }
+  #mindiv{
+height: 100vh;
+min-height: 500px;
+min-width: 300px;
+  }
+  #subdiv{
+min-height: 500px;
+min-width: 300px;
+padding: 30px;
+
+  }
+  #insidemob1{
+    background: white;
+    width: 260px;
+    height:404px ; 
+  }

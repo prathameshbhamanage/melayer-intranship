@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="./ipage.css">
+<link rel="stylesheet" href="./bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <title>3rd page</title>
+</head>
+<body style="overflow: hidden;">
+<div style="height:65px;" class=" bg-light">
+  <img src="./melayerlogo.png"  class="float-left ml-2 " alt="melayer-logo" width="170px" height="75px">
+
+</div> 
+
+  <div style="width: 100%;" >
+    <div>
+        <img src="./mIAuEBM.png" id="img1" height= 550px width= 800px>
+        
+        
+<!-- hall -->
+<img src="./hal1.jpg" id="ha1" height= 550px width= 800px >
+<img src="./things/animated-light-bulb-gif-29.gif" id="hlight" height= 100px width= 100px >
+<img src="./Airflow-Hugger-GIF.gif" id="hfan1" height= 100px width= 100px >
+<img src="./Airflow-Hugger-GIF.gif" id="hfan2" height= 100px width= 100px >
+<img src="./things/ac.gif" id="hac" height= 80px width= 130px >
+
+<img src="./things/acpng.png" id="ac" height= 80px width= 130px >
+<img src="./things/bulb.png" id="bulb" height= 100px width= 100px >
+<img src="./things/fanpng.png" id="fan1" height= 100px width= 100px >
+<img src="./things/fanpng.png" id="fan2" height= 100px width= 100px >
+
+<!-- /hall -->
+<!--bedroom -->
+<img src="./bedroom-design-layout.png" id="ha2" height= 550px width= 800px >
+<img src="./things/bulb.png" id="bbulb" height= 100px width= 100px >
+<img src="./things/acpng.png" id="bac" height= 80px width= 130px >
+<img src="./things/fanpng.png" id="bfan" height= 100px width= 100px >
+<img src="./things/animated-light-bulb-gif-29.gif" id="blight" height= 100px width= 100px >
+<img src="./things/ac.gif" id="bac1" height= 80px width= 130px >
+<img src="./Airflow-Hugger-GIF.gif" id="bfan1" height= 100px width= 100px >
+
+
+<!--\bedroom -->
+<!--kitchen-->
+
+<img src="./kitchen-layout-planning-designing-500x500.jpg" id="ha3" height= 550px width= 800px >
+<img src="./things/bulb.png" id="kbulb" height= 100px width= 100px >
+<img src="./things/fanpng.png" id="kfan" height= 100px width= 100px >
+<img src="./things/animated-light-bulb-gif-29.gif" id="klight" height= 100px width= 100px >
+<img src="./Airflow-Hugger-GIF.gif" id="kfan1" height= 100px width= 100px >
+
+<!--/kitchen-->
+<!--bathroom-->
+
+
+<img src="./bathroomfloorplan-1.jpg" id="ha4" height= 550px width= 800px >
+<img src="./things/animated-light-bulb-gif-29.gif" id="belight" height= 100px width= 100px >
+<img src="./things/bulb.png" id="bebulb" height= 100px width= 100px >
+
+<!--bathroom-->
+
+     </div>
+<img src="./mobile.png" alt="" height="580" width="450" id="mobile" class="m-1">
+
+
+           <div class="left bg-success" >
+               
+                
+                <div>
+                <div class="left-content p-3 m-2" onclick="todslide1()">Hall
+                        <img src="./60554.png" height= 25px width= 25px style="float: right;" class="arr-img" id="i1">
+                    </div>
+                <div class="m-2" id="hall1">
+                        <div >
+                                <div class="innercontent  mx-2 text-capitalize">
+                                tube light
+                                <label class="switch mx-1" >
+                                    <input type="checkbox" onchange="hlight1()">
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                                <div class="innercontent mt-1 mx-2 text-capitalize">
+                                fan
+                                <label class="switch mx-1">
+                                    <input type="checkbox" onchange="hfan1()">
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+
+                                <div class="innercontent mt-1 mx-2 text-capitalize">
+                                ac
+                                <label class="switch mx-1">
+                                    <input type="checkbox" onchange="hac()">
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div >
+                    <div class="left-content p-3 m-2" onclick="todslide2()">Bedroom
+                        
+                            <img src="./60554.png" height= 25px width= 25px style="float: right;" class="arr-img" id="i1">
+                        </div>
+                    <div class="m-2" id="hall2">
+                            <div >
+                                    <div class="innercontent mt-1 mx-2 text-capitalize">
+                                    tube light
+                                    <label class="switch mx-1" >
+                                        <input type="checkbox" onchange="bbulb()">
+                                        <span class="slider round"></span>
+                                    </label>
+                                    </div>
+
+
+                                    <div class="innercontent mt-1 mx-2 text-capitalize">
+                                    fan
+                                    <label class="switch mx-1" >
+                                        <input type="checkbox" onchange="bfan()">
+                                        <span class="slider round"></span>
+                                      </label>
+                                    </div>
+
+
+                                    <div class="innercontent mt-1 mx-2 text-capitalize">
+                                    ac
+                                    <label class="switch mx-1" >
+                                        <input type="checkbox" onchange="bac()">
+                                        <span class="slider round"></span>
+                                      </label>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div >
+                        <div class="left-content p-3 m-2" onclick="todslide3()">Kitchen
+                                <img src="./60554.png" height= 25px width= 25px style="float: right;" class="arr-img" id="i1">
+                            </div>
+                        <div class="m-2" id="hall3">
+                                <div >
+                                        <div class="innercontent mt-1 mx-2 text-capitalize">
+                                        tube light
+                                        <label class="switch mx-1" >
+                                            <input type="checkbox" onchange="kbulb()">
+                                            <span class="slider round"></span>
+                                          </label>
+                                        </div>
+
+                                        <div class="innercontent mt-1 mx-2 text-capitalize">
+                                        fan
+                                        <label class="switch mx-1" >
+                                            <input type="checkbox" onchange="kfan()">
+                                            <span class="slider round"></span>
+                                          </label>
+                                        </div>
+
+                                     
+                                </div>
+                            </div>
+                            
+                        </div>
+
+
+                <div >
+                            <div class="left-content p-3 m-2" onclick="todslide4()">Bathroom
+                                    <img src="./60554.png" height= 25px width= 25px style="float: right;" class="arr-img" id="i1">
+                                </div>
+                            <div class="m-2" id="hall4">
+                                    <div >
+                                            <div class="innercontent mt-1 mx-2 text-capitalize">
+                                            Tube light
+                                            <label class="switch mx-1" >
+                                                <input type="checkbox" onchange="bebulb()">
+                                                <span class="slider round"></span>
+                                              </label>
+                                            </div>
+                                            
+
+                                    </div>
+                                </div>
+                                
+                            </div> 
+
+
+            </div>
+        </div> 
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="./fpjs.js"></script>
+</body>
+</html>
